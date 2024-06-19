@@ -7,7 +7,7 @@ const Hero = () => {
     <div>
       {/* center display in the screen in mobile view overflow */}
       <AuroraBackground
-        className="flex justify-center items-center w-[850px] h-[100vh] overflow-hidden"
+        className="flex justify-center items-center w-[850px] overflow-hidden md:w-full md:h-[100vh] md:overflow-hidden"
         showRadialGradient={true}
       >
         <Display />

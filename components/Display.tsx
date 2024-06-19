@@ -4,7 +4,7 @@ import React from 'react'
 const Display = () => {
   return (
     <div>
-      <section className=' relative h-[78vh] w-[700px] align-middle mt-10 -ml-20 sm:overflow-x-auto md:overflow-hidden md:w-[800px]'>
+      <section className=' relative h-[78vh] w-[700px] align-middle mt-10 -ml-20 sm:overflow-x-auto md:overflow-hidden md:w-[800px] md:ml-5'>
         <Image src={'/assets/fragment (1).gif'} width={250} height={200} alt='fragment1' className=' absolute top-[180px] left-[81px] rotate-6'/>
         <Image src={'/assets/fragment (3).gif'} width={400} height={200} alt='fragment1' className=' absolute top-[355px] left-0'/>
         <Image src={'/assets/fragment (2).gif'} width={170} height={200} alt='fragment1' className=' absolute top-[0px] left-[189px] rotate-12'/>

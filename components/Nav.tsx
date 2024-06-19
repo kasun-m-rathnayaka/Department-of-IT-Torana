@@ -24,10 +24,10 @@ function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
   return (
     <div
-      className={cn("fixed inset-x-0 max-w-2xl mx-auto z-50", className)}
+      className={cn("fixed inset-x-0 max-w-xl mx-auto z-50", className)}
     >
       <Menu setActive={setActive}>
-        <div className="flex justify-between items-center  w-[85vw] md:w-[500px]">
+        <div className="flex justify-between items-center  w-[85vw] md:w-[35vw]">
           <Image src={"/icons/logo.png"} alt="logo" width={90} height={90} className=""/>
           <Link href={"https://mgt.sjp.ac.lk/itc/bsc-business-information-systems-special/"}>
             <button className="rounded-full border border-white bg-transparent py-1.5 px-5 text-white transition-all hover:bg-white hover:text-black-100 text-center text-sm font-inter flex items-center justify-center">

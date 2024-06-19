@@ -5,7 +5,11 @@ import Display from "./Display";
 const Hero = () => {
   return (
     <div>
-      <AuroraBackground className="flex justify-center align-middle" showRadialGradient={true}>
+      {/* center display in the screen in mobile view overflow */}
+      <AuroraBackground
+        className="flex justify-center items-center w-[850px] h-[100vh] overflow-hidden"
+        showRadialGradient={true}
+      >
         <Display />
       </AuroraBackground>
     </div>

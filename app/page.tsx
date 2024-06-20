@@ -1,3 +1,4 @@
+import Audio from "@/components/Audio";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Nav from "@/components/Nav";
@@ -13,10 +14,7 @@ export default function Home() {
         <Hero />
       </section>
       <section className="w-full flex justify-center">
-        {/* add a audio file for this section to auto play when the page is loaded */}
-        <audio controls autoPlay className=" opacity-20">
-          <source src="/assets/audio.mp3" type="audio/mp3" />
-        </audio>
+        <Audio/>        
       </section>
       <footer>
         <Footer />

@@ -11,7 +11,7 @@ const Display = () => {
         <Image src={'/assets/fragment (4).gif'} width={320} height={200} alt='fragment1' className=' absolute -top-[10px] left-[260px]' loading='lazy'/>
         <Image src={'/assets/fragment (5).gif'} width={350} height={200} alt='fragment1' className=' absolute top-[17px] left-[395px] rotate-12' loading='lazy'/>
         <Image src={'/assets/fragment (6).gif'} width={250} height={200} alt='fragment1' className=' absolute top-[200px] left-[475px] rotate-3' loading='lazy'/>
-        <Image src={'/assets/fragment (7).gif'} width={350} height={200} alt='fragment1' className=' absolute top-[385px] left-[410px] rotate-12' loading='lazy'/>
+        <Image src={'/assets/fragment (7).gif'} width={350} height={200} alt='fragment1' className=' absolute top-[380px] left-[410px] rotate-12' loading='lazy'/>
         <Image src={'/assets/fragment (8).gif'} width={350} height={200} alt='fragment1' className=' absolute top-[180px] left-[235px]' loading='lazy'/>
         <Image src={'/assets/img.png'} width={350} height={200} alt='fragment1' className=' absolute top-[180px] left-[235px]' loading='lazy'/>
         <Image src={'/assets/footer.jpg'} width={350} height={200} alt='fragment1' className=' absolute top-[500px] left-[235px] rounded-xl' loading='lazy'/>

@@ -5,16 +5,16 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className=" bg-[#18181B] to-black-100 relative w-full text-white flex flex-col">
+    <main className=" bg-[#18181B] to-black-100 relative w-[850px] md:w-full text-white flex flex-col">
       <div className="">
         <Nav />
       </div>
       <section>
         <Hero />
       </section>
-      <section>
+      <section className="w-full flex justify-center">
         {/* add a audio file for this section to auto play when the page is loaded */}
-        <audio controls autoPlay className=" opacity-0">
+        <audio controls autoPlay className=" opacity-20">
           <source src="/assets/audio.mp3" type="audio/mp3" />
         </audio>
       </section>

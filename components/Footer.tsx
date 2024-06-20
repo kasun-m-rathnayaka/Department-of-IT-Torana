@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div>
       {/* create a center footer with center text and top white line  */}
-      <div className="flex flex-col gap-2 justify-center items-center bg-black text-white-200 w-[850px] border-t-[1px] border-white border-opacity-20 text-sm md:w-full py-3">
+      <div className="flex flex-col gap-2 justify-center items-center bg-black text-white-200 w-[850px] border-t-[1px] border-white border-opacity-20 text-sm md:w-full py-3 mt-10">
         <p className=" font-sans font-bold text-md md:text-lg">Special Thanks</p>
         <p className="-mt-2">Thank you, everyone, for your incredible support and hard work in making this achievement a reality!</p>
         <p className="flex -mb-2">
